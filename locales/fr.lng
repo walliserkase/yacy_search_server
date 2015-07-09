@@ -136,8 +136,8 @@ Generic error.==Erreur g&eacute;n&eacute;rique.
 Passwords do not match.==Les mots de passe ne correspondent pas.
 Username too short. Username must be \>\= 4 Characters.==Nom d'utilisateur trop court. Un nom d'utilisateur doit comporter plus de 4 caract&egrave;res.
 No password is set for the administration account.==Aucun mot de passe n'est d&eacute;fini pour le compte administrateur.
-Please define a password for the admin account.==Veuillez d&eacute;finir un mot de passe pour le compte admin.
-Admin Account==Compte admin
+Please define a password for the admin account.==Veuillez d&eacute;finir un mot de passe pour le compte administrateur.
+Admin Account==Compte administrateur
 Access from localhost without account==Acc&egrave;s sans compte &agrave; partir de localhost
 Access to your peer from your own computer \(localhost access\) is granted. No need to configure an administration account.==L'acc&egrave;s &agrave; votre noeud depuis votre ordinateur (acc&egrave;s via localhost) est garanti. La cr&eacute;ation d'un compte administrateur n'est pas n&eacute;cessaire.
 Access only with qualified account==Acc&egrave;s avec un compte autoris&eacute; uniquement
@@ -146,6 +146,9 @@ Peer User:==Utilisateur du noeud:
 New Peer Password:==Nouveau mot de passe du noeud:
 Repeat Peer Password:==Entrer &agrave; nouveau le mot de passe du noeud:
 "Define Administrator"=="D&eacute;finir un administrateur"
+>Access Rules<==>R&egrave;gles d'acc&egrave;s<
+Protection of all pages: if set to on, access to all pages need authorization; if off, only pages with "_p" extension are protected.==Prot&eacute;ger toutes les pages. Si 'on', une autorisation d'acc&egrave;s sera n&eacute;cessaire pour toutes les pages; si 'off', seules les pages avec une extension en "_p" seront prot&eacute;g&eacute;es.
+Set Access Rules==D&eacute;finir les r&egrave;gles d'acc&egrave;s
 Select user==Choisir un utilisateur
 New user==Nouvel utilisateur
 Edit User==Modifier l'utilisateur
@@ -158,6 +161,14 @@ First name==Pr&eacute;nom
 Last name==Nom
 Address==Adresse
 Rights==Droits
+Upload right==T&eacute;l&eacute;versement (upload)
+Download right==T&eacute;l&eacute;chargement (download)
+Admin right==Administrateur
+Proxy usage right==Utilisation du proxy
+Blog right==Blog
+Wiki Admin right==Administrateur wiki
+Bookmark right==Marques-pages
+Extended Search right==Recherche avanc&eacute;e
 Timelimit==Limite de temps
 Time used==Temps utilis&eacute;
 Save User==Sauvegarder l'utilisateur
@@ -180,10 +191,10 @@ Your port has changed. Please wait 10 seconds.== Votre port a &eacute;t&eacute; 
 Your YaCy Peer needs some basic information to operate properly==Votre noeud YaCy n&eacute;cessite quelques informations de base afin de fonctionner correctement.
 Select a language for the interface==S&eacute;lectionnez une langue pour l'interface
 Use Case: what do you want to do with YaCy:==Mode d'utilisation: que voulez-vous faire avec YaCy?
-Community-based web search==Recherche communautaire sur le Web
-Join and support the global network \'freeworld\', search the web with an uncensored user-owned search network==Rejoingnez et soutenez le r&eacute;seau global \'freeworld\', effectuez des recherches sur le Web &agrave; l'aide d'un r&eacute;seau de recherche non censur&eacute; appartenant aux utilisateurs.
+Community-based web search==Recherche sur le Web au travers du r&eacute;seau YaCy
+Join and support the global network \'freeworld\', search the web with an uncensored user-owned search network==Rejoindre et soutenir le r&eacute;seau global \'freeworld\'; effectuer des recherches sur le Web &agrave; l'aide d'un r&eacute;seau de recherche non censur&eacute; appartenant aux utilisateurs.
 Search portal for your own web pages==Portail de recherche pour vos propres pages web
-Your YaCy installation behaves independently from other peers and you define your own web index by starting your own web crawl. This can be used to search your own web pages or to define a topic-oriented search portal.==Votre installation YaCy se comporte ind&eacute;pendemment des autres pairs et vous pouvez d&eacute;finir votre propre index lan&ccedil;ant votre propre balayage du Web. Cela peut servir &agrave; rechercher vos propres pages web ou &agrave; construire un portail de recherche th&eacute;matique.
+Your YaCy installation behaves independently from other peers and you define your own web index by starting your own web crawl. This can be used to search your own web pages or to define a topic-oriented search portal.==Votre installation YaCy se comporte ind&eacute;pendemment des autres pairs et vous pouvez d&eacute;finir votre propre index en lan&ccedil;ant un balayage du Web. Cela peut servir &agrave; rechercher vos propres pages web ou &agrave; construire un portail de recherche th&eacute;matique.
 Files may also be shared with the YaCy server, assign a path here:==Le serveur YaCy peut aussi &ecirc;tre utilis&eacute; pour le partage de fichiers. D&eacute;finissez un chemin ici:
 This path can be accessed at ==Ce chemin est accessible sous 
 Use that path as crawl start point.== Utilisez ce chemin comme point de d&eacute;marrage du balayage.
@@ -191,8 +202,8 @@ Intranet Indexing==Indexage d'intranet
 Create a search portal for your intranet or web pages or your \(shared\) file system.==Cr&eacute;er un portail de recherche pour votre intranet, vos pages web ou votre syst&egrave;me de fichiers (partag&eacute;s).
 URLs may be used with http/https/ftp and a local domain name or IP, or with an URL of the form==Les URL peuvent &ecirc;tre utilis&eacute;es avec les protocoles http/https/ftp et un nom de domaine local, ou avec une URL de la forme
 or smb:==ou smb:
-Your peer name has not been customized; please set your own peer name==Le nom de votre noeud YaCy n'a pas &eacute;t&eacute; personnalis&eacute;. Veuillez choisir votre propre nom de noeud YaCy.
-You have a nice peer name==Vous avez un joli nom de noeud
+Your peer name has not been customized; please set your own peer name==Le nom de votre noeud YaCy n'a pas &eacute;t&eacute; personnalis&eacute;. Veuillez choisir un nom pour votre noeud YaCy.
+You have a nice peer name==Quel joli nom!
 You may change your peer name==Vous pouvez modifier le nom de votre noeud
 Peer Name:==Nom du noeud:
 #Please set a password for your peer to protect your settings==Veuillez choisir un mot de passe pour prot&eacute;ger votre configuration
@@ -233,12 +244,12 @@ Some pages are protected by passwords.==Certaines pages sont prot&eacute;g&eacut
 You should set a password at the ==Vous devez d&eacute;finir un mot de passe dans le 
 >Accounts Menu< ==>menu des comptes< 
 to secure your YaCy peer.==afin de s&eacute;curiser votre noeud YaCy.
-Your Peer name is a default name; please set an individual peer name.== Le nom de votre noeud est un nom par d&eacute;faut. veuillez lui donner un nom individuel.
+Your Peer name is a default name; please set an individual peer name.== Le nom de votre noeud est un nom par d&eacute;faut. Veuillez lui donner un nom individuel.
 You did not open a port in your firewall or your router does not forward the server port to your peer.==Vous n'avez pas ouvert de port sur votre pare-feu ou votre routeur ne fournit pas le port serveur &agrave; votre pair.
 This is needed if you want to fully participate in the YaCy network.==Cela est n&eacute;cessaire pour participer pleinement au r&eacute;seau YaCy.
 You can also use your peer without opening it, but this is not recomended.==Vous pouvez aussi utiliser votre pair sans l'ouvrir, mais cela n'est pas recommand&eacute;.
 The peer port was changed successfully. Your browser will be redirected to the new ==Le port logiciel du noeud a &eacute;t&eacute; correctement modifi&eacute;. Votre navigateur sera redirig&eacute; vers la nouvelle 
-in 5 seconds.==dans 5 secondes
+in 5 seconds.==dans 5 secondes.
 #-----------------------------
 
 #File: ConfigLanguage_p.html
@@ -2220,7 +2231,7 @@ Outgoing Cookies==Cookies sortants
 
 #File: env/templates/submenuCrawler.template
 #---------------------------
-Load Web Pages, Crawler==Charger des pages web, balayeur
+Load Web Pages==Charger des pages web
 Site Crawling==Balayage de sites
 Parser Configuration==Configuration de l'analyseur syntaxique
 #-----------------------------
@@ -2263,6 +2274,7 @@ Timing Settings for Search Sequence==Param&egrave;tres temporels la recherche
 Use Case &amp; Accounts==Mode d'utilisation et comptes
 Basic Configuration==Configuration de base
 >Accounts<==>Comptes<
+Network Configuration==Configuration r&eacute;seau
 #-----------------------------
 
 #File: htdocsdefault/dir.html
